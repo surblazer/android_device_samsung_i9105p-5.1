@@ -9,5 +9,5 @@
 /dev/block/mmcblk0p5     /boot          emmc      defaults                                                                  defaults
 /dev/block/mmcblk0p6     /recovery      emmc      defaults                                                                  defaults
 
-/devices/platform/sdhci.3/mmc_host/mmc2*    auto    auto    defaults    voldmanaged=sdcard1:auto,noemulatedsd
+/devices/platform/sdhci.3/mmc_host/mmc2*    auto    auto    defaults    voldmanaged=sdcard1:auto
 /devices/platform/dwc_otg/usb1*             auto    auto    defaults    voldmanaged=usbdisk:auto
