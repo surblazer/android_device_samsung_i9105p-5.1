@@ -11,6 +11,9 @@ TARGET_RECOVERY_FSTAB := device/samsung/i9105p/ramdisk/fstab.capri_ss_s2vep
 # NFC
 BOARD_NFC_HAL_SUFFIX := capri
 
+# Disable WebView building
+PRODUCT_PREBUILT_WEBVIEWCHROMIUM := yes
+
 # SELinux
 BOARD_SEPOLICY_DIRS += \
     device/samsung/i9105p/sepolicy
