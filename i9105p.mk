@@ -27,7 +27,8 @@ PRODUCT_COPY_FILES += \
         $(NFCEE_ACCESS_PATH):system/etc/nfcee_access.xml \
         $(LOCAL_PATH)/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
         $(LOCAL_PATH)/nfc/bcm2079xB4_firmware_20793.ncd:system/vendor/firmware/bcm2079xB4_firmware_20793.ncd \
-        $(LOCAL_PATH)/nfc/bcm2079xB4_pre_firmware_20793.ncd:system/vendor/firmware/bcm2079xB4_pre_firmware_20793.ncd
+        $(LOCAL_PATH)/nfc/bcm2079xB4_pre_firmware_20793.ncd:system/vendor/firmware/bcm2079xB4_pre_firmware_20793.ncd \
+        $(LOCAL_PATH)/nfc/nfc_nci.bcm2079x.capri.so:system/lib/hw/nfc_nci.bcm2079x.capri.so
 
 # NFC permissions
 PRODUCT_COPY_FILES += \
